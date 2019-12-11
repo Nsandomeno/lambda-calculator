@@ -16,7 +16,7 @@ import { numbers } from '../../../data'
   const [numberState, setNumberState] = useState(numbers);
   console.log("Number STate:", numberState);
   return (
-    <div>
+    <div className="numberButtons">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}

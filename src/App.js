@@ -30,13 +30,13 @@ function App() {
       <Display desc={displayVal} /> 
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <div>
+        <div className="appLeft">
           <Specials displayVal={displayVal} setDisplayVal={setDisplayVal} />
           <Numbers displayVal = {displayVal} setDisplayVal={setDisplayVal}/>
         </div>
-
+        <div className="appRight">
         <Operators displayVal = {displayVal} setDisplayVal={setDisplayVal} />
-      
+        </div>
       </div>
     </div>
   );
