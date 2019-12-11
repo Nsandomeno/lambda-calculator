@@ -24,18 +24,21 @@
     width: 450px;
     margin-top: 10%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
 .appLeft{
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 .appRight{
-    width: 30%;
+    width: 40%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
@@ -61,17 +64,18 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-
-
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .op-btn{
     line-height: 4.5rem;
     font-size: 2rem;
-    border-radius: 50px;
+    border-radius: 250px;
     background-color: white;
-    width: 100%;
+    width: 45%;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
@@ -83,8 +87,9 @@
 .num-btn{
     line-height: 4.5rem;
     font-size: 2rem;
-    border-radius: 50px;
-    background-color:purple;
+    border-radius: 250px;
+    background-color: darkblue;
+    color: white;
     width: 28%;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -95,8 +100,9 @@
     width: 28%;
     line-height: 4.5rem;
     font-size: 2rem;
-    border-radius: 50px;
-    background-color: green;
+    border-radius: 250px;
+    background-color: royalblue;
+    color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-bottom: 2.5%;
