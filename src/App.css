@@ -20,3 +20,49 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.app{
+    width: 450px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.op-div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.op-btn{
+    line-height: 4.5rem;
+    font-size: 4rem;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.num-div{
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: flex-start;
+   width: 70%;
+}
+
+.num-btn{
+    line-height: 4.5rem;
+    font-size: 4rem;
+    border-radius: 15px;
+    background-color:purple;
+    width: 17%;
+}
+
+.special-btn{
+    width: 17%;
+    line-height: 4.5rem;
+    font-size: 4rem;
+    border-radius: 15px;
+    background-color: green;
+}
